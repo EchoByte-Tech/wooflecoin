@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+
+h1, h2, h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #0078ff, #1dd1a1);
+}
+
+footer {
+    background: linear-gradient(to right, #1dd1a1, #0078ff);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0078ff !important;
+}
+
+.btn-primary {
+    background-color: #0078ff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1dd1a1;
+}
+  
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode .bg-light {
+    background-color: #1f1f1f !important;
+}
+.dark-mode .text-dark {
+    color: #ffffff !important;
+}
+.dark-mode .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+.dark-mode {
+    background-color: #121212; /* Adjust if needed for better dark mode support */
+}
+
+/* Style for Token Trading & Analysis section images */
+.brand-img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
